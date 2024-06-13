@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3076EE2A95FDFD005A816B /* ChangeUserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3076ED2A95FDFD005A816B /* ChangeUserDetailView.swift */; };
+		5A3076F52A97A25A005A816B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3076F42A97A25A005A816B /* NavigationView.swift */; };
+		5A5A5F722AD41D46009248E1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16EE89A2A98FC4F0037D658 /* ActivityView.swift */; };
+		5A5A5F732AD41D4B009248E1 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16EE89E2A9A22950037D658 /* RecipeView.swift */; };
+		5A5A5F742AD4280D009248E1 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA41DF32AB16F3700210765 /* ExerciseModel.swift */; };
+		5A5A5F752AD43A98009248E1 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF7112AB57DEF003699C0 /* ActivityDetailView.swift */; };
+		5A5A5F762AD43A9B009248E1 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E179A2ABF43B90062923A /* RecipeDetailView.swift */; };
+		5A5A5F772AD43ABA009248E1 /* FavouriteRecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F984DE2AC54A3900568118 /* FavouriteRecipeDetailView.swift */; };
+		5A5A5F782AD43ABE009248E1 /* ActivityInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD84E2ABF1021001EF75B /* ActivityInfoView.swift */; };
+		5A5A5F792AD43AC0009248E1 /* FavouriteActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD8502ABF171E001EF75B /* FavouriteActivityDetailView.swift */; };
+		5A5A5F7A2AD43AC8009248E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97C562A93C2F200238BE5 /* ProfileView.swift */; };
+		5A5A5F7B2AD43ACA009248E1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97C5A2A94E19800238BE5 /* WelcomeView.swift */; };
+		5A5A5F7C2AD43ACC009248E1 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D5C2E2A9599F200A28CA0 /* FavouritesView.swift */; };
+		5A5A5F7D2AD43ACE009248E1 /* ChangeUserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3076ED2A95FDFD005A816B /* ChangeUserDetailView.swift */; };
+		5A5A5F7E2AD43AD1009248E1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3076F42A97A25A005A816B /* NavigationView.swift */; };
+		5A5A5F7F2AD43AEC009248E1 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FFEDC2A93C0A900E929BE /* Logo.swift */; };
+		5A5A5F802AD43AEE009248E1 /* HealthPlusPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B48B2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift */; };
+		5A5A5F812AD43AF0009248E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B48D2A8A7CA20044C1A1 /* ContentView.swift */; };
+		5A5A5F822AD43AF2009248E1 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BEDF52A9F9DD2006125F6 /* Recipe.swift */; };
+		5A5A5F832AD43AF6009248E1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD797E52AB93CA600CE4458 /* Persistence.swift */; };
+		5A7989FF2ADA32FB00B4A2B9 /* HealthPlusPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF2B22AD27E17002A6AF8 /* HealthPlusPlusTests.swift */; };
+		5A798A002ADA332400B4A2B9 /* FavouritesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AD797D62AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld */; };
+		5A9D5C2F2A9599F200A28CA0 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D5C2E2A9599F200A28CA0 /* FavouritesView.swift */; };
+		5AA41DF42AB16F3700210765 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA41DF32AB16F3700210765 /* ExerciseModel.swift */; };
+		5AB97C572A93C2F200238BE5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97C562A93C2F200238BE5 /* ProfileView.swift */; };
+		5AB97C5B2A94E19800238BE5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97C5A2A94E19800238BE5 /* WelcomeView.swift */; };
+		5ACCD84F2ABF1021001EF75B /* ActivityInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD84E2ABF1021001EF75B /* ActivityInfoView.swift */; };
+		5ACCD8512ABF171E001EF75B /* FavouriteActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCD8502ABF171E001EF75B /* FavouriteActivityDetailView.swift */; };
+		5AD797D82AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AD797D62AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld */; };
+		5AD797E62AB93CA600CE4458 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD797E52AB93CA600CE4458 /* Persistence.swift */; };
+		5AE6B48C2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B48B2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift */; };
+		5AE6B48E2A8A7CA20044C1A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B48D2A8A7CA20044C1A1 /* ContentView.swift */; };
+		5AE6B4902A8A7CA30044C1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6B48F2A8A7CA30044C1A1 /* Assets.xcassets */; };
+		5AE6B4932A8A7CA30044C1A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6B4922A8A7CA30044C1A1 /* Preview Assets.xcassets */; };
+		5AEAF7122AB57DEF003699C0 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF7112AB57DEF003699C0 /* ActivityDetailView.swift */; };
+		B10E179B2ABF43B90062923A /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E179A2ABF43B90062923A /* RecipeDetailView.swift */; };
+		B14BEDF62A9F9DD2006125F6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BEDF52A9F9DD2006125F6 /* Recipe.swift */; };
+		B16EE89B2A98FC4F0037D658 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16EE89A2A98FC4F0037D658 /* ActivityView.swift */; };
+		B16EE89F2A9A22950037D658 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16EE89E2A9A22950037D658 /* RecipeView.swift */; };
+		B170ADCE2ADBA9A6001E7AA1 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = B170ADCD2ADBA9A6001E7AA1 /* Documentation.docc */; };
+		B19FFEDD2A93C0A900E929BE /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FFEDC2A93C0A900E929BE /* Logo.swift */; };
+		B1F984DF2AC54A3900568118 /* FavouriteRecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F984DE2AC54A3900568118 /* FavouriteRecipeDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A6BF2B42AD27E17002A6AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE6B4802A8A7CA20044C1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE6B4872A8A7CA20044C1A1;
+			remoteInfo = HealthPlusPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A3076ED2A95FDFD005A816B /* ChangeUserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDetailView.swift; sourceTree = "<group>"; };
+		5A3076F42A97A25A005A816B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		5A6BF2B02AD27E17002A6AF8 /* HealthPlusPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthPlusPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6BF2B22AD27E17002A6AF8 /* HealthPlusPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPlusPlusTests.swift; sourceTree = "<group>"; };
+		5A9D5C2E2A9599F200A28CA0 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		5AA41DF32AB16F3700210765 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		5AB97C562A93C2F200238BE5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5AB97C5A2A94E19800238BE5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5ACCD84E2ABF1021001EF75B /* ActivityInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoView.swift; sourceTree = "<group>"; };
+		5ACCD8502ABF171E001EF75B /* FavouriteActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteActivityDetailView.swift; sourceTree = "<group>"; };
+		5AD797D72AB9370F00CE4458 /* FavouritesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavouritesDataModel.xcdatamodel; sourceTree = "<group>"; };
+		5AD797E52AB93CA600CE4458 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5AE6B4882A8A7CA20044C1A1 /* HealthPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE6B48B2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPlusPlusApp.swift; sourceTree = "<group>"; };
+		5AE6B48D2A8A7CA20044C1A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AE6B48F2A8A7CA30044C1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE6B4922A8A7CA30044C1A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AEAF7112AB57DEF003699C0 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		B10E179A2ABF43B90062923A /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		B14BEDF52A9F9DD2006125F6 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B16EE89A2A98FC4F0037D658 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B16EE89E2A9A22950037D658 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		B170ADCD2ADBA9A6001E7AA1 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		B19FFEDC2A93C0A900E929BE /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		B1F984DE2AC54A3900568118 /* FavouriteRecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRecipeDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6BF2AD2AD27E17002A6AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE6B4852A8A7CA20044C1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6BF2B12AD27E17002A6AF8 /* HealthPlusPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BF2B22AD27E17002A6AF8 /* HealthPlusPlusTests.swift */,
+			);
+			path = HealthPlusPlusTests;
+			sourceTree = "<group>";
+		};
+		5AB97C542A93C2C300238BE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B14BEDF52A9F9DD2006125F6 /* Recipe.swift */,
+				5AE6B48D2A8A7CA20044C1A1 /* ContentView.swift */,
+				5AE6B48B2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift */,
+				B19FFEDC2A93C0A900E929BE /* Logo.swift */,
+				5AA41DF32AB16F3700210765 /* ExerciseModel.swift */,
+				5AD797E52AB93CA600CE4458 /* Persistence.swift */,
+				5AD797D62AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AB97C552A93C2C800238BE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97C562A93C2F200238BE5 /* ProfileView.swift */,
+				5AB97C5A2A94E19800238BE5 /* WelcomeView.swift */,
+				5A9D5C2E2A9599F200A28CA0 /* FavouritesView.swift */,
+				5A3076ED2A95FDFD005A816B /* ChangeUserDetailView.swift */,
+				5A3076F42A97A25A005A816B /* NavigationView.swift */,
+				B16EE89A2A98FC4F0037D658 /* ActivityView.swift */,
+				B16EE89E2A9A22950037D658 /* RecipeView.swift */,
+				B10E179A2ABF43B90062923A /* RecipeDetailView.swift */,
+				B1F984DE2AC54A3900568118 /* FavouriteRecipeDetailView.swift */,
+				5AEAF7112AB57DEF003699C0 /* ActivityDetailView.swift */,
+				5ACCD84E2ABF1021001EF75B /* ActivityInfoView.swift */,
+				5ACCD8502ABF171E001EF75B /* FavouriteActivityDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE6B47F2A8A7CA20044C1A1 = {
+			isa = PBXGroup;
+			children = (
+				5AE6B48A2A8A7CA20044C1A1 /* HealthPlusPlus */,
+				5A6BF2B12AD27E17002A6AF8 /* HealthPlusPlusTests */,
+				5AE6B4892A8A7CA20044C1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE6B4892A8A7CA20044C1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6B4882A8A7CA20044C1A1 /* HealthPlusPlus.app */,
+				5A6BF2B02AD27E17002A6AF8 /* HealthPlusPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE6B48A2A8A7CA20044C1A1 /* HealthPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97C552A93C2C800238BE5 /* View */,
+				5AB97C542A93C2C300238BE5 /* Model */,
+				5AE6B48F2A8A7CA30044C1A1 /* Assets.xcassets */,
+				5AE6B4912A8A7CA30044C1A1 /* Preview Content */,
+				B170ADCD2ADBA9A6001E7AA1 /* Documentation.docc */,
+			);
+			path = HealthPlusPlus;
+			sourceTree = "<group>";
+		};
+		5AE6B4912A8A7CA30044C1A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6B4922A8A7CA30044C1A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6BF2AF2AD27E17002A6AF8 /* HealthPlusPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6BF2B82AD27E17002A6AF8 /* Build configuration list for PBXNativeTarget "HealthPlusPlusTests" */;
+			buildPhases = (
+				5A6BF2AC2AD27E17002A6AF8 /* Sources */,
+				5A6BF2AD2AD27E17002A6AF8 /* Frameworks */,
+				5A6BF2AE2AD27E17002A6AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6BF2B52AD27E17002A6AF8 /* PBXTargetDependency */,
+			);
+			name = HealthPlusPlusTests;
+			productName = HealthPlusPlusTests;
+			productReference = 5A6BF2B02AD27E17002A6AF8 /* HealthPlusPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE6B4872A8A7CA20044C1A1 /* HealthPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE6B4962A8A7CA30044C1A1 /* Build configuration list for PBXNativeTarget "HealthPlusPlus" */;
+			buildPhases = (
+				5AE6B4842A8A7CA20044C1A1 /* Sources */,
+				5AE6B4852A8A7CA20044C1A1 /* Frameworks */,
+				5AE6B4862A8A7CA20044C1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthPlusPlus;
+			productName = HealthPlusPlus;
+			productReference = 5AE6B4882A8A7CA20044C1A1 /* HealthPlusPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE6B4802A8A7CA20044C1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5A6BF2AF2AD27E17002A6AF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5AE6B4872A8A7CA20044C1A1;
+					};
+					5AE6B4872A8A7CA20044C1A1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AE6B4832A8A7CA20044C1A1 /* Build configuration list for PBXProject "HealthPlusPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE6B47F2A8A7CA20044C1A1;
+			productRefGroup = 5AE6B4892A8A7CA20044C1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE6B4872A8A7CA20044C1A1 /* HealthPlusPlus */,
+				5A6BF2AF2AD27E17002A6AF8 /* HealthPlusPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6BF2AE2AD27E17002A6AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE6B4862A8A7CA20044C1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE6B4932A8A7CA30044C1A1 /* Preview Assets.xcassets in Resources */,
+				5AE6B4902A8A7CA30044C1A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6BF2AC2AD27E17002A6AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A5F7E2AD43AD1009248E1 /* NavigationView.swift in Sources */,
+				5A7989FF2ADA32FB00B4A2B9 /* HealthPlusPlusTests.swift in Sources */,
+				5A5A5F802AD43AEE009248E1 /* HealthPlusPlusApp.swift in Sources */,
+				5A5A5F7F2AD43AEC009248E1 /* Logo.swift in Sources */,
+				5A5A5F732AD41D4B009248E1 /* RecipeView.swift in Sources */,
+				5A5A5F762AD43A9B009248E1 /* RecipeDetailView.swift in Sources */,
+				5A5A5F7A2AD43AC8009248E1 /* ProfileView.swift in Sources */,
+				5A5A5F792AD43AC0009248E1 /* FavouriteActivityDetailView.swift in Sources */,
+				5A5A5F812AD43AF0009248E1 /* ContentView.swift in Sources */,
+				5A5A5F832AD43AF6009248E1 /* Persistence.swift in Sources */,
+				5A798A002ADA332400B4A2B9 /* FavouritesDataModel.xcdatamodeld in Sources */,
+				5A5A5F722AD41D46009248E1 /* ActivityView.swift in Sources */,
+				5A5A5F7D2AD43ACE009248E1 /* ChangeUserDetailView.swift in Sources */,
+				5A5A5F7B2AD43ACA009248E1 /* WelcomeView.swift in Sources */,
+				5A5A5F752AD43A98009248E1 /* ActivityDetailView.swift in Sources */,
+				5A5A5F782AD43ABE009248E1 /* ActivityInfoView.swift in Sources */,
+				5A5A5F772AD43ABA009248E1 /* FavouriteRecipeDetailView.swift in Sources */,
+				5A5A5F822AD43AF2009248E1 /* Recipe.swift in Sources */,
+				5A5A5F7C2AD43ACC009248E1 /* FavouritesView.swift in Sources */,
+				5A5A5F742AD4280D009248E1 /* ExerciseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE6B4842A8A7CA20044C1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3076EE2A95FDFD005A816B /* ChangeUserDetailView.swift in Sources */,
+				5A3076F52A97A25A005A816B /* NavigationView.swift in Sources */,
+				5AB97C572A93C2F200238BE5 /* ProfileView.swift in Sources */,
+				B170ADCE2ADBA9A6001E7AA1 /* Documentation.docc in Sources */,
+				B1F984DF2AC54A3900568118 /* FavouriteRecipeDetailView.swift in Sources */,
+				B16EE89B2A98FC4F0037D658 /* ActivityView.swift in Sources */,
+				5AB97C5B2A94E19800238BE5 /* WelcomeView.swift in Sources */,
+				5ACCD8512ABF171E001EF75B /* FavouriteActivityDetailView.swift in Sources */,
+				5AD797D82AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld in Sources */,
+				5AE6B48E2A8A7CA20044C1A1 /* ContentView.swift in Sources */,
+				5AD797E62AB93CA600CE4458 /* Persistence.swift in Sources */,
+				5AEAF7122AB57DEF003699C0 /* ActivityDetailView.swift in Sources */,
+				B16EE89F2A9A22950037D658 /* RecipeView.swift in Sources */,
+				5ACCD84F2ABF1021001EF75B /* ActivityInfoView.swift in Sources */,
+				B19FFEDD2A93C0A900E929BE /* Logo.swift in Sources */,
+				B14BEDF62A9F9DD2006125F6 /* Recipe.swift in Sources */,
+				5AA41DF42AB16F3700210765 /* ExerciseModel.swift in Sources */,
+				5A9D5C2F2A9599F200A28CA0 /* FavouritesView.swift in Sources */,
+				B10E179B2ABF43B90062923A /* RecipeDetailView.swift in Sources */,
+				5AE6B48C2A8A7CA20044C1A1 /* HealthPlusPlusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6BF2B52AD27E17002A6AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE6B4872A8A7CA20044C1A1 /* HealthPlusPlus */;
+			targetProxy = 5A6BF2B42AD27E17002A6AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A6BF2B62AD27E17002A6AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.HealthPlusPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthPlusPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthPlusPlus";
+			};
+			name = Debug;
+		};
+		5A6BF2B72AD27E17002A6AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.HealthPlusPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthPlusPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthPlusPlus";
+			};
+			name = Release;
+		};
+		5AE6B4942A8A7CA30044C1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE6B4952A8A7CA30044C1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE6B4972A8A7CA30044C1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthPlusPlus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.HealthPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE6B4982A8A7CA30044C1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthPlusPlus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.HealthPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6BF2B82AD27E17002A6AF8 /* Build configuration list for PBXNativeTarget "HealthPlusPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6BF2B62AD27E17002A6AF8 /* Debug */,
+				5A6BF2B72AD27E17002A6AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE6B4832A8A7CA20044C1A1 /* Build configuration list for PBXProject "HealthPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE6B4942A8A7CA30044C1A1 /* Debug */,
+				5AE6B4952A8A7CA30044C1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE6B4962A8A7CA30044C1A1 /* Build configuration list for PBXNativeTarget "HealthPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE6B4972A8A7CA30044C1A1 /* Debug */,
+				5AE6B4982A8A7CA30044C1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AD797D62AB9370F00CE4458 /* FavouritesDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AD797D72AB9370F00CE4458 /* FavouritesDataModel.xcdatamodel */,
+			);
+			currentVersion = 5AD797D72AB9370F00CE4458 /* FavouritesDataModel.xcdatamodel */;
+			path = FavouritesDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5AE6B4802A8A7CA20044C1A1 /* Project object */;
+}
